@@ -1,5 +1,5 @@
 const express = require('express');
-const config = require('./config/config');
+//const config = require('./config/config');
 const colors = require('colors');
 const path = require('path');
 const socketIO = require('socket.io');
@@ -7,6 +7,7 @@ const http = require('http');
 
 const app = express();
 const port = process.env.PORT;
+console.log(process.env.PORT);
 const publicPath = path.resolve(__dirname, '../public');
 const server = http.createServer(app);
 
