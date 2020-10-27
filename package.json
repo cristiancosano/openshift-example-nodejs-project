@@ -1,0 +1,30 @@
+{
+  "name": "openshift-example-nodejs-project",
+  "version": "1.0.0",
+  "description": "Sample project for openshift testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server",
+    "dev": "nodemon server/server.js -e js,html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristiancosano/openshift-example-nodejs-project.git"
+  },
+  "author": "cristiancosano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristiancosano/openshift-example-nodejs-project/issues"
+  },
+  "homepage": "https://github.com/cristiancosano/openshift-example-nodejs-project#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
